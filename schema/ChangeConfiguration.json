@@ -1,0 +1,18 @@
+{
+    
+    "type": "object",
+    "properties": {
+        "key": {
+            "type": "string",
+            "maxLength": 50
+        },
+        "value": {
+            "type": "string",
+            "maxLength": 500
+        }
+    },
+    "required": [
+        "key",
+        "value"
+    ]
+}
